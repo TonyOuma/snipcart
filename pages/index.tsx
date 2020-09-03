@@ -1,7 +1,12 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
+
 const Index = () => {
     return (
         <div className="app">
-            <p>Hello World!</p>
+            <Header />
+            <Footer />
         </div>
     )
 }
